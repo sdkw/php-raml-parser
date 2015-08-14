@@ -13,7 +13,7 @@ class Method implements ArrayInstantiationInterface
      * - Currently missing OPTIONS as this is unlikely to be specified in RAML
      * @var array
      */
-    public static $validMethods = ['GET', 'HEAD', 'POST', 'PUT', 'DELETE', 'PATCH'];
+    public static $validMethods = ['GET', 'HEAD', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS', 'CONNECT', 'TRACE'];
 
     // ---
 
